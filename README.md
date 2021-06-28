@@ -1,6 +1,6 @@
 # letsencrypt-certbot-renewal
 
-This script is a standalone shell script to renew a SSL certificate issued by letsencrypt and certbot without having to stop Nginx. It can be easily programmed from a crontab to save you the hassle of renewing certificates by hand.
+This script is a standalone shell script to renew a SSL certificate issued by letsencrypt and certbot with the "standalone" mode without having to stop Nginx. It can be easily programmed from a crontab to save you the hassle of renewing certificates by hand.
 
 ## Requirements
 
