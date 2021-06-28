@@ -46,5 +46,5 @@ certbot-renew
 certbot-renew hello-world.com,www.hello-world.com,other-domain.com
 ```
 
-Your are now free to create a crontab each month to launche the script.
+Your are now free to create a crontab each month to launch the script.
 
