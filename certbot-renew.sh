@@ -20,7 +20,7 @@ echo -e "${YELLOW}Renewing certificate for domains: ${domains}${NC}"
 sudo certbot certonly \
 -a webroot \
 --webroot-path /var/www/html/letsencrypt \
--d ${domains} \
+--domains ${domains} \
 --server https://acme-v02.api.letsencrypt.org/directory \
 --agree-tos --renew-by-default
 
