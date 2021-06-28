@@ -30,7 +30,14 @@ location ~ /\.well-known {
 ## Download & install
 
 ```
-curl
+curl -O https://raw.githubusercontent.com/360medics/letsencrypt-certbot-renewal/master/certbot-renew.sh
+
+# optional: make it availbale and executable globally as a command
+sudo mv certbot-renew.sh /usr/local/bin/certbot-renew
+chmod +x /usr/local/bin/certbot-renew
+
+# test
+certbot-renew
 ```
 
 ## Usage
